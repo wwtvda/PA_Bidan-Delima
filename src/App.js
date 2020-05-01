@@ -4,6 +4,7 @@ import './App.css';
 import Lando from './Landing';
 import SignUp from './SignUp';
 import dAdm from './Page/admin/dash_adm';
+import UserSet from './Page/admin/userSet'
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
             <Route exact path='/' component={Lando}/>
             <Route path='/Landing' component={Lando}/>
             <Route path='/SignUp' component={SignUp}/>
-            <Route path='/dUsr' component={dAdm}/>
+            <Route path='/dAdm' component={dAdm}/>
+            <Route path='/AdmUsr' component={UserSet}/>
           </Switch>
         </Router>
       </React.Fragment>

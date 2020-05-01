@@ -105,7 +105,7 @@ export default function SignInSide() {
               variant="contained"
               color="primary"
               className={classes.submit}
-              href="/DashAdm"
+              href="/dUsr"
             >
               Masuk
             </Button>

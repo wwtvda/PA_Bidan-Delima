@@ -3,17 +3,17 @@ import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import './App.css';
 import Lando from './Landing';
 import SignUp from './SignUp';
-import DashAdm from './DashAdm';
+import dAdm from './Page/admin/dash_adm';
 
 function App() {
   return (
     <React.Fragment>
         <Router>
           <Switch>
-            <Route exact path='/' component={DashAdm}/>
+            <Route exact path='/' component={Lando}/>
             <Route path='/Landing' component={Lando}/>
             <Route path='/SignUp' component={SignUp}/>
-            <Route path='./DashAdm' component={DashAdm}/>
+            <Route path='/dUsr' component={dAdm}/>
           </Switch>
         </Router>
       </React.Fragment>

@@ -21,7 +21,7 @@ import PersonIcon from '@material-ui/icons/Person';
 import { mainListItems, secondaryListItems } from './listItems_adm';
 import Menu from '@material-ui/core/Menu';
 import MenuItem from '@material-ui/core/MenuItem';
-import TabelUser from './tableUser';
+import TabelUser from './comp/tableUser';
 
 function Copyright() {
   return (

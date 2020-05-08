@@ -5,6 +5,7 @@ import Lando from './Landing';
 import SignUp from './SignUp';
 import dAdm from './Page/admin/dash_adm';
 import UserSet from './Page/admin/userSet'
+import dUsr from './Page/User/dUsr';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
             <Route path='/SignUp' component={SignUp}/>
             <Route path='/dAdm' component={dAdm}/>
             <Route path='/AdmUsr' component={UserSet}/>
+            <Route path='/dUsr' component={dUsr}/>
           </Switch>
         </Router>
       </React.Fragment>
